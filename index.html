@@ -44,20 +44,22 @@
             margin-bottom: 20px;
         }
 
-        .social-links {
-            margin-top: 20px;
-        }
+       .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* 控制图标间距 */
+    margin-top: 20px;
+}
 
-        .social-links a {
-            color: white;
-            font-size: 24px;
-            margin: 0 10px;
-            transition: opacity 0.3s;
-        }
+.social-links a {
+    color: white;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
 
-        .social-links a:hover {
-            opacity: 0.8;
-        }
+.social-links a:hover {
+    transform: translateY(-3px);
+}
 
         section {
             background: white;
